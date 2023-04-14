@@ -1,6 +1,6 @@
 package java2;
 
-import java.awt.Button;
+/*import java.awt.Button;
 import java.awt.Checkbox;
 import java.awt.Color;
 import java.awt.Frame;
@@ -20,7 +20,7 @@ public class Awt1 {
 	 */
 	
 	
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		Frame fr = new Frame();
 		closepm cp = new closepm();
 		fr.setTitle("사용자로그인"); //창 타이틀
@@ -75,4 +75,4 @@ class closepm extends WindowAdapter{
 		System.out.println("프로그램 종료");
 		System.exit(0);
 	}
-}
+}*/

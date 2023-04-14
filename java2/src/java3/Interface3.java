@@ -1,6 +1,6 @@
 package java3;
 
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 import javax.swing.plaf.synth.SynthOptionPaneUI;
 
@@ -10,7 +10,7 @@ public class Interface3 {
 	 응용문제2.
 	 가입된 모든 사용자의 정보를 출력합니다. 출력형태는 다음과 같습니다.
 	 아이디 : hong 고객명 : 홍길동 이메일 : hong@nate.com 지역 : 서울시 영등포구
-	*/
+	
 	public static void main(String[] args) {
 		new ifif3();
 	}
@@ -56,4 +56,4 @@ class if3 implements user1{ //user2 인터페이스는 로드하지않음. 단, 
 	
 	@Override
 	public void mytel(String usertel) {} //사용안함
-}
+}*/
