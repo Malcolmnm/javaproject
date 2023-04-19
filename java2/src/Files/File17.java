@@ -23,6 +23,12 @@ public class File17 {
 				System.out.println("1MB이하만 가능합니다.");
 			}
 			else {
+				/*
+				 BufferedInputStream bs = new BufferedInputStream(is);
+				 byte img[] = new byte[bs.available()];
+				 int total = bs.read(img);
+				 os.write(total); 
+				 */
 				byte img[] = new byte[is.available()/100];
 				OutputStream os = new FileOutputStream("E:\\memo\\onlovehani.jpg");
 			
