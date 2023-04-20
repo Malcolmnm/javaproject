@@ -12,10 +12,10 @@ public class Thread5 {
 	
 	public static void main(String[] args) throws Exception{
 		Thread th2 = new gugu9();
-		th2.start();
-		
 		Thread th = new gugu5();
+		th2.start();
 		th.start();
+		
 	}
 
 }
