@@ -8,13 +8,13 @@ public class Net6 {
 	//Client 생성
 	public static void main(String[] args) {
 		try {
-			System.out.println("Client 접속");
+			System.out.println("Client Connect");
 			String ip = "192.168.10.143";
 			int port = 9001;
 			Socket sk = new Socket(ip,port);
 			
 			//Client에서 Sever로 보내는 메세지
-			String cmsg = "안녕하셈";
+			String cmsg = "Hi Server~";
 			
 			//Client에서 Server로 보내는 통로 byte로 전송
 			OutputStream os = sk.getOutputStream();
@@ -30,7 +30,7 @@ public class Net6 {
 			sk.close();
 			os.close();
 		}
-		catch (Exception e) {System.out.println("서버에 접근하지 못합니다.");}
+		catch (Exception e) {System.out.println("Error Server Connect");}
 	}
 
 }
